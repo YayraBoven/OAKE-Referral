@@ -78,7 +78,7 @@ Runs on `http://127.0.0.1:8000`. Open this address in a browser to use the syste
 
 Both must stay running for the site to work — closing either terminal stops that part of the system.
 
-USsage example
+Usage example
 
 Using the web interface:** open `http://127.0.0.1:8000`, go to "Existing patient," fill in a patient's clinical details (age group, severity, risk of mortality, admission type, length of stay), and submit. The system will return a referral decision and, if suitable, a ranked list of appropriate hospitals.
 
