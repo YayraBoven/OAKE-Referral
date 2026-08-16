@@ -7,12 +7,15 @@ Thin Flask wrapper around the tested pipeline from `Patient_Referral_AI.ipynb`
 
 ```bash
 cd python-api
+python3.12 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 python app.py
 ```
 
-Runs on `http://127.0.0.1:5000`. Keep this terminal open while demoing —
-Laravel needs it running.
+Runs on `http://127.0.0.1:5001`. Keep this terminal open while demoing —
+Laravel needs it running. Each time you open a new terminal, re-run
+`source venv/bin/activate` before `python app.py`.
 
 ## Endpoints
 
