@@ -1,0 +1,12 @@
+venv/
+vendor/
+__pycache__/
+*.pyc
+node_modules/
+.env
+.DS_Store
+oake-referral/bootstrap/cache/*.php
+oake-referral/storage/framework/views/*.php
+oake-referral/storage/framework/cache/
+oake-referral/storage/framework/sessions/
+oake-referral/database/database.sqlite
