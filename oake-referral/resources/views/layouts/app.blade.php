@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="nav">
-      <div class="logo">OAKE-Referral</div>
+      <div class="logo">OAKE-REFERRAL</div>
       <div class="nav-links">
         <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
         <a href="{{ route('existing') }}" class="{{ request()->routeIs('existing') ? 'active' : '' }}">Existing patient</a>
@@ -28,7 +28,7 @@
     @yield('content')
   </div>
 
-  <footer>OAKE-Referral · CS254_B — Introduction to Artificial Intelligence</footer>
+  <footer>OAKE-REFERRAL</footer>
   
 </body>
 </html>

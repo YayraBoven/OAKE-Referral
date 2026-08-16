@@ -1,11 +1,11 @@
 :root {
-  --bg: #FFFFFF;
-  --surface: #F7F8FA;
-  --border: #E2E5EA;
-  --text: #1F2430;
-  --text-dim: #667085;
-  --blue: #2563EB;
-  --blue-dark: #1D4ED8;
+  --bg: #f1ebe4;
+  --surface: #ffffff;
+  --border: #1c1c20;
+  --text: #103d8a;
+  --text-dim: #4a494d;
+  --blue: #1442a6;
+  --blue-dark: #0a2162;
   --green: #16A34A;
   --green-bg: #F0FDF4;
   --red: #DC2626;
@@ -14,7 +14,7 @@
   --amber: #B45309;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: var(--bg); color: var(--text); font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; font-size: 15px; }
+body { background: var(--bg); color: var(--text); font-family:  Arial, sans-serif; line-height: 1.55; font-size: 15px; }
 .wrap { max-width: 900px; margin: 0 auto; padding: 0 24px; }
 
 header { border-bottom: 1px solid var(--border); }
@@ -29,10 +29,10 @@ header { border-bottom: 1px solid var(--border); }
 .page.active { display: block; }
 
 h1 { font-size: 26px; font-weight: 700; margin-bottom: 10px; }
-h2 { font-size: 18px; font-weight: 700; margin-bottom: 14px; }
+h2 { font-size: 22px; font-weight: 700; margin-bottom: 14px; }
 .subtitle { color: var(--text-dim); font-size: 15px; margin-bottom: 28px; max-width: 560px; }
 
-.hero { padding: 56px 0 64px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
+.hero {padding: 56px 0 64px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
 .eyebrow { font-size: 12.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--blue); margin-bottom: 16px; }
 .hero h1 { font-size: 34px; line-height: 1.25; max-width: 620px; margin-bottom: 16px; }
 .hero .subtitle { font-size: 16px; max-width: 540px; margin-bottom: 32px; }

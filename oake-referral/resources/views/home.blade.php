@@ -3,9 +3,9 @@
 @section('content')
   <div id="home" class="page active">
     <div class="hero">
-      <div class="eyebrow">Live across 24 Greater Accra facilities</div>
-      <h1>OAKE-Referral: routing patients to available capacity, not just the nearest bed.</h1>
-      <p class="subtitle">An AI referral classifier and live hospital matching system built to ease No Bed Syndrome across Greater Accra's referral network.</p>
+        <h1>OAKE-REFERRAL</h1>
+        <h2>Ending "No Bed Syndrome", one referral at a time!</h2>
+        <p class="subtitle">An AI referral classifier and live hospital matching system built to ease "No Bed Syndrome" across hospitals in Greater Accra.</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ route('existing') }}">Check a patient</a>
         <a class="btn btn-secondary" href="{{ route('hospitals') }}">View hospital capacity</a>

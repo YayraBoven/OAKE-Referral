@@ -2,7 +2,7 @@
 
 @section('content')
   <div id="new" class="page active">
-    <h1>New / ambulance patient</h1>
+    <h1>New / Ambulance patient</h1>
     <p class="subtitle">For patients not yet placed at a hospital. Select the specialty needed and get a ranked list of hospitals with available beds.</p>
 
     <div class="card">

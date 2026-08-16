@@ -2,11 +2,11 @@
 
 @section('content')
   <div id="hospitals" class="page active">
-    <h1>Hospital directory</h1>
+    <h1>Hospital Directory</h1>
     <p class="subtitle">Live view of all 24 hospitals in the network.</p>
 
     <div class="search-row">
-      <input type="text" placeholder="Search hospitals...">
+      <input type="text" placeholder="Search Hospitals...">
       <select><option>All tiers</option><option>Tier 1</option><option>Tier 2</option><option>Tier 3</option></select>
     </div>
 

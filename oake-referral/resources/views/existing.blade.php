@@ -25,7 +25,7 @@
       <button class="btn btn-primary submit-btn">Check referral eligibility</button>
 
       <div class="result suitable">
-        <div class="result-title">Suitable for downward referral — 98.6% confidence</div>
+        <div class="result-title">Suitable for downward referral - 98.6% confidence</div>
         <div class="result-detail">Required specialty: Obstetrics &amp; Gynaecology. Recommended hospitals below.</div>
       </div>
     </div>
