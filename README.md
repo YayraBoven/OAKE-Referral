@@ -1,6 +1,4 @@
-OAKE-Referral
-
-Smart Hospital Referral and Bed Availability System for Reducing No Bed Syndrome in Ghana
+OAKE-REFERRAL (OPTIMIZED AI FOR KNOWLEDGE-BASED REFERRAL AND BED MANAGEMENT) - SMART HOSPITAL REFERRAL AND BED AVAILABILITY SYSTEM FOR REDUCING NO BED SYNDROME IN GHANA
 
 CS254_B — Introduction to Artificial Intelligence Cohort B 
 Group Members
@@ -9,7 +7,7 @@ Franca Opokua Haligah
 Harriet Yayra Boven Fiahagbe 
 Kwadwo Adjei Awuah Akotoh 
 
-Lecturer:Dr. Daniel Addo
+Lecturer: Dr. Daniel Addo
 
 This is the single, complete README for the whole project. Component-level READMEs also exist inside python-api/ and oake-referral/ with additional detail on those pieces specifically, but everything needed to get the full system running from a fresh clone is here.
 
@@ -42,7 +40,7 @@ OAKE-Referral-Project/
 
 
 Prerequisites
-Python 3.12 (not 3.13+ — some dependencies lack pre-built packages for very new Python versions)
+Python 3.12 (not 3.13+, because some dependencies lack pre-built packages for very new Python versions)
 PHP 8.2.x and Composer
 Git
 
@@ -53,20 +51,29 @@ hasantugra. (2024, October 17). Hospital-inpatient-discharges-prediction. Kaggle
 
 
 
-Running the system
+Running our system/SETUP
 The system has two parts that run as separate local processes simultaneously. Open two terminal windows.
 
-Terminal 1 Python API:
+Terminal 1 Our Python API:
+
 bash
-cd python-api
-source venv/bin/activate
+cd OAKE-Referral/python-api
+python3.12 -m venv venv
+source venv/bin/activate - MAC
+venv\Scripts\activate - WINDOWS
+pip install -r requirements.txt
 python app.py
 
 Runs on http://127.0.0.1:5001. Confirm it's working by visiting http://127.0.0.1:5001/health — should show {"status": "ok", "hospitals_loaded": 24}.
 
-Terminal 2 — Laravel app:
+Terminal 2  Our Laravel app:
+
 bash
-cd oake-referral
+cd OAKE-Referral/oake-referral
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan key:migrate
 php artisan serve
 
 Runs on http://127.0.0.1:8000. Open this in a browser to use the system. Both terminals must stay running.
